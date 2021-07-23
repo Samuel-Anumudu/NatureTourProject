@@ -1,6 +1,6 @@
 .row {
   width: $grid-width; // rem is calculated by dividing the number (e.g in px by 10);
-  background-color: #eee;
+
   margin: 0 auto;
 
   &:not(:last-child) {
@@ -10,7 +10,6 @@
   @include clearfix;
 
   [class^="col-"] {
-    background-color: orangered;
     float: left;
 
     &:not(:last-child) {
